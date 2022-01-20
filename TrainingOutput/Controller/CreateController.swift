@@ -18,13 +18,14 @@ class CreateController: UIViewController, UITextViewDelegate, UITextFieldDelegat
     @IBOutlet weak var confirmPasswordTextField: UITextField!
     @IBOutlet weak var createButton: UIButton!
     
+    
+    
     override func viewDidLoad() {
         
         createButton.isEnabled = false
             confirmPasswordTextField.delegate = self
             confirmPasswordTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         }
-    
     
     @objc private func textFieldDidChange(_ textField: UITextField) {
         if (passwordTextField.text != "") {
@@ -39,7 +40,6 @@ class CreateController: UIViewController, UITextViewDelegate, UITextFieldDelegat
             return true
         }
     
-    
     @IBAction func actionRegister(_ sender: Any) {
         
         if  passwordTextField.text != confirmPasswordTextField.text {
@@ -49,10 +49,10 @@ class CreateController: UIViewController, UITextViewDelegate, UITextFieldDelegat
             return
         }
         
+        
         let db = Firestore.firestore()
         var ref: DocumentReference? = nil
         ref = db.collection("Information").addDocument(data: [
-            "ConfirmPassword": confirmPasswordTextField.text ?? "",
             "Email": emailTextField.text ?? "",
             "FirstName": firstNameTextField.text ?? "",
             "LastName": lastNameTextField.text ?? "",
