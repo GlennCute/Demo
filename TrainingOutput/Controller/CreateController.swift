@@ -49,7 +49,6 @@ class CreateController: UIViewController, UITextViewDelegate, UITextFieldDelegat
             return
         }
         
-        
         let db = Firestore.firestore()
         var ref: DocumentReference? = nil
         ref = db.collection("Information").addDocument(data: [

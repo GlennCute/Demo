@@ -24,6 +24,7 @@
 		5B2462D427981509004240E6 /* HomeController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2462D327981509004240E6 /* HomeController.storyboard */; };
 		5B2462DA27987341004240E6 /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B2462D927987341004240E6 /* Asset.xcassets */; };
 		5B2462DC279949AD004240E6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2462DB279949AD004240E6 /* User.swift */; };
+		5B2A1A292799932400957280 /* MainItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2A1A282799932400957280 /* MainItem.swift */; };
 		CEEC5645BE817989951F1D5C /* Pods_TrainingOutput.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F883677FBEE117DDDB4D1F79 /* Pods_TrainingOutput.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		5B2462D327981509004240E6 /* HomeController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeController.storyboard; sourceTree = "<group>"; };
 		5B2462D927987341004240E6 /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 		5B2462DB279949AD004240E6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5B2A1A282799932400957280 /* MainItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainItem.swift; sourceTree = "<group>"; };
 		8EF43C1178722340AAE7470B /* Pods-TrainingOutput-TrainingOutputUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingOutput-TrainingOutputUITests.release.xcconfig"; path = "Target Support Files/Pods-TrainingOutput-TrainingOutputUITests/Pods-TrainingOutput-TrainingOutputUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9445E14FDC563D7C8D63A736 /* Pods-TrainingOutput.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingOutput.debug.xcconfig"; path = "Target Support Files/Pods-TrainingOutput/Pods-TrainingOutput.debug.xcconfig"; sourceTree = "<group>"; };
 		A6F2049630F1F252AE243B4B /* Pods-TrainingOutputTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingOutputTests.release.xcconfig"; path = "Target Support Files/Pods-TrainingOutputTests/Pods-TrainingOutputTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				5B24629627915D4E004240E6 /* ViewController.swift */,
 				5B2462C727940139004240E6 /* ForgotController.swift */,
 				5B2462CF2794E593004240E6 /* HomeController.swift */,
+				5B2A1A282799932400957280 /* MainItem.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 				5B2462D02794E593004240E6 /* HomeController.swift in Sources */,
 				5B24629327915D4E004240E6 /* AppDelegate.swift in Sources */,
 				5B2462C827940139004240E6 /* ForgotController.swift in Sources */,
+				5B2A1A292799932400957280 /* MainItem.swift in Sources */,
 				5B24629527915D4E004240E6 /* SceneDelegate.swift in Sources */,
 				5B2462DC279949AD004240E6 /* User.swift in Sources */,
 			);
